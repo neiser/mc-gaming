@@ -1,0 +1,6 @@
+[package]
+name = "mc-gaming"
+version = "0.1.0"
+authors = ["Andreas Neiser <andreas.neiser@gmail.com>"]
+
+[dependencies]
