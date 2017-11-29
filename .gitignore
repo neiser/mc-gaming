@@ -1,2 +1,14 @@
 /target/
 **/*.rs.bk
+# Remove Cargo.lock from gitignore if creating an executable, leave it for libraries
+# More information here http://doc.crates.io/guide.html#cargotoml-vs-cargolock
+Cargo.lock
+
+.idea/vcs.xml
+.idea/workspace.xml
+
+*.iml
+modules.xml
+.idea/misc.xml
+
+*.ipr
